@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import NotesContext from "../Context/NotesContext";
 import { useNavigate } from "react-router-dom";
-// import "./AddNotes.css";
+import "./AddNotes.css";
 
 const AddNote = () => {
   const { addNote } = useContext(NotesContext);
