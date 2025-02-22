@@ -6,9 +6,6 @@ const Stopwatch = () => {
   const [laps, setLaps] = useState([]);
   const intervalRef = useRef(null);
 
-  useEffect(() => {
-    return () => clearInterval(intervalRef.current);
-  }, []);
 
   const startTimer = () => {
     if (!isRunning) {
