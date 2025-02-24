@@ -7,13 +7,12 @@ import EditNote from "./Pages/EditNote";
 const App = () => {
   return (
     <NotesProvider>
-      <BrowserRouter>
+      
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/add-note" element={<AddNote />} />
           <Route path="/edit-note/:id" element={<EditNote />} />
         </Routes>
-      </BrowserRouter>
     </NotesProvider>
   );
 };
