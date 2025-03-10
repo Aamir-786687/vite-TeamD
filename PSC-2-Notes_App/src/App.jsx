@@ -10,8 +10,8 @@ const App = () => {
       
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/add-note" element={<AddNote />} />
-          <Route path="/edit-note/:id" element={<EditNote />} />
+          <Route path="/AddNote" element={<AddNote />} />
+          <Route path="/EditNote/:id" element={<EditNote />} />
         </Routes>
     </NotesProvider>
   );
